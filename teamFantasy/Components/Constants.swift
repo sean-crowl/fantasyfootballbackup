@@ -45,6 +45,7 @@ struct Constants {
         //RunningBack
         static let rushAtt = "rushAtt"
         static let rushYds = "rushYds"
+        static let rushTD = "rudhTD"
         //   static let receptions = "receptions"
         //   static let recYds = "recYds"
         //   static let recTD = "recTD"

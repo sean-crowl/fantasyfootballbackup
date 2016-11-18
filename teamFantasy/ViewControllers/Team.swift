@@ -25,20 +25,14 @@ class Team: NSObject, NSCoding {
     let categoryLabelKey = "categoryLabel"
     let idKey = "id"
     
-    var dateString: String {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "MM/dd/yyyy HH:mm"
-        return dateFormatter.string(from: date)
-    }
     
     override init() {
         super.init()
         
     }
     
-    init(title: String, dueDate: String) {
+    init(title: String) {
         self.title = title
-        self.dueDate = dueDate
     }
     
     required init?(coder aDecoder: NSCoder) {

@@ -14,7 +14,7 @@ class MyTeamStore {
     var teams: [[Team]]!
     
     var team = Team()
-    var teamdetail = MyTeamDetailViewController()
+    var teamdetail = MyTeamViewController()
     
 
     init() {
@@ -32,7 +32,7 @@ class MyTeamStore {
     
     
     // MARK: - Public functions
-    func getTeam(_ index: Int, categorySet: Int) -> ToDo {
+    func getTeam(_ index: Int, categorySet: Int) -> Team {
         return teams[categorySet][index]
     }
     
