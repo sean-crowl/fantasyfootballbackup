@@ -17,6 +17,17 @@ class Team: NSObject, NSCoding {
     var id = UUID.init().uuidString
     var team = ""
     var helmet: UIImage?
+    var position = ""
+    var completions = ""
+    var passYards = ""
+    var passTDs = ""
+    var rushYards = ""
+    var rushTDs = ""
+    var receivingYards = ""
+    var receivingTDs = ""
+    var PAs = ""
+    var FGs = ""
+    var teamLabel = ""
     
     let titleKey = "title"
     let categoryKey = "category"

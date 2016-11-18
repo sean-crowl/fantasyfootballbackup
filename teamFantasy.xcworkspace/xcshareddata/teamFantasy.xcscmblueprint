@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7C07A52148D51C8B54345E49FEFD266865F78A05",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7C07A52148D51C8B54345E49FEFD266865F78A05" : 9223372036854775807,
+    "40B16E8EB6D1C20A70ED72A1C96DBA9EF3811623" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F3A23230-3456-47E8-9583-CA6F37F0E154",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7C07A52148D51C8B54345E49FEFD266865F78A05" : "fantasyfootballbackup\/",
+    "40B16E8EB6D1C20A70ED72A1C96DBA9EF3811623" : "..\/teamFantasyMain"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "teamFantasy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "teamFantasy.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/davidscottbowen\/teamFantasy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "40B16E8EB6D1C20A70ED72A1C96DBA9EF3811623"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sean-crowl\/fantasyfootballbackup.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7C07A52148D51C8B54345E49FEFD266865F78A05"
+    }
+  ]
+}
