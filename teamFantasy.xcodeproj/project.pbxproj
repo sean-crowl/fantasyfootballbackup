@@ -24,7 +24,7 @@
 		2E72BECE1DDF9FB50007CCBB /* Chargers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEAE1DDF9FB50007CCBB /* Chargers.gif */; };
 		2E72BECF1DDF9FB50007CCBB /* Chiefs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEAF1DDF9FB50007CCBB /* Chiefs.gif */; };
 		2E72BED01DDF9FB50007CCBB /* Colts.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB01DDF9FB50007CCBB /* Colts.gif */; };
-		2E72BED11DDF9FB50007CCBB /* Dallas_Cowboys.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB11DDF9FB50007CCBB /* Dallas_Cowboys.gif */; };
+		2E72BED11DDF9FB50007CCBB /* Cowboys.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB11DDF9FB50007CCBB /* Cowboys.gif */; };
 		2E72BED21DDF9FB50007CCBB /* Dolphins.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB21DDF9FB50007CCBB /* Dolphins.gif */; };
 		2E72BED31DDF9FB50007CCBB /* Eagles.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB31DDF9FB50007CCBB /* Eagles.gif */; };
 		2E72BED41DDF9FB50007CCBB /* Falcons.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB41DDF9FB50007CCBB /* Falcons.gif */; };
@@ -82,7 +82,7 @@
 		2E72BEAE1DDF9FB50007CCBB /* Chargers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Chargers.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Chargers.gif; sourceTree = "<group>"; };
 		2E72BEAF1DDF9FB50007CCBB /* Chiefs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Chiefs.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Chiefs.gif; sourceTree = "<group>"; };
 		2E72BEB01DDF9FB50007CCBB /* Colts.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Colts.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Colts.gif; sourceTree = "<group>"; };
-		2E72BEB11DDF9FB50007CCBB /* Dallas_Cowboys.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Dallas_Cowboys.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Dallas_Cowboys.gif; sourceTree = "<group>"; };
+		2E72BEB11DDF9FB50007CCBB /* Cowboys.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Cowboys.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Cowboys.gif; sourceTree = "<group>"; };
 		2E72BEB21DDF9FB50007CCBB /* Dolphins.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Dolphins.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Dolphins.gif; sourceTree = "<group>"; };
 		2E72BEB31DDF9FB50007CCBB /* Eagles.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Eagles.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Eagles.gif; sourceTree = "<group>"; };
 		2E72BEB41DDF9FB50007CCBB /* Falcons.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Falcons.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Falcons.gif; sourceTree = "<group>"; };
@@ -161,8 +161,8 @@
 				2E72BEAD1DDF9FB50007CCBB /* Cardinals.gif */,
 				2E72BEAE1DDF9FB50007CCBB /* Chargers.gif */,
 				2E72BEAF1DDF9FB50007CCBB /* Chiefs.gif */,
+				2E72BEB11DDF9FB50007CCBB /* Cowboys.gif */,
 				2E72BEB01DDF9FB50007CCBB /* Colts.gif */,
-				2E72BEB11DDF9FB50007CCBB /* Dallas_Cowboys.gif */,
 				2E72BEB21DDF9FB50007CCBB /* Dolphins.gif */,
 				2E72BEB31DDF9FB50007CCBB /* Eagles.gif */,
 				2E72BEB41DDF9FB50007CCBB /* Falcons.gif */,
@@ -374,7 +374,7 @@
 				2E72BEE31DDF9FB50007CCBB /* Texans.gif in Resources */,
 				2E72BEA51DDF90290007CCBB /* Steelers.gif in Resources */,
 				2E72BED91DDF9FB50007CCBB /* Packers.gif in Resources */,
-				2E72BED11DDF9FB50007CCBB /* Dallas_Cowboys.gif in Resources */,
+				2E72BED11DDF9FB50007CCBB /* Cowboys.gif in Resources */,
 				2E72BECE1DDF9FB50007CCBB /* Chargers.gif in Resources */,
 				2E72BED61DDF9FB50007CCBB /* Jaguars.gif in Resources */,
 				2E72BED51DDF9FB50007CCBB /* Giants.gif in Resources */,

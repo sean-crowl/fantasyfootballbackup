@@ -523,6 +523,10 @@ class MyTeamViewController: UIViewController  {
             team.categorySet = 1
         } else if self.positionLabel.text == "RB" {
             team.categorySet = 2
+        } else if self.positionLabel.text == "TE" {
+            team.categorySet = 3
+        } else if self.positionLabel.text == "K" {
+            team.categorySet = 4
         }
     }
     
