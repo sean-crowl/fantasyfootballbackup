@@ -18,7 +18,7 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class MyTeamDetailViewController: UIViewController  {
+class MyTeamViewController: UIViewController  {
     @IBOutlet weak var enterNameField: UITextField!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var positionLabel: UILabel!
