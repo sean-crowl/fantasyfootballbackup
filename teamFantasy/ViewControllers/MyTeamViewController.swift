@@ -254,7 +254,68 @@ class MyTeamViewController: UIViewController  {
         
         if teamLabel.text == "PIT" {
             team.helmet = UIImage(named: "Steelers.gif")
-        }
+        } else if teamLabel.text == "ARI" {
+            team.helmet = UIImage(named: "Cardinals.gif")
+        } else if teamLabel.text == "ATL" {
+            team.helmet = UIImage(named: "Falcons.gif")
+        } else if teamLabel.text == "BAL" {
+            team.helmet = UIImage(named: "Ravens.gif")
+        } else if teamLabel.text == "BUF" {
+            team.helmet = UIImage(named: "Bills.gif")
+        } else if teamLabel.text == "CAR" {
+            team.helmet = UIImage(named: "Panthers.gif")
+        } else if teamLabel.text == "CHI" {
+            team.helmet = UIImage(named: "Bears.gif")
+        } else if teamLabel.text == "CIN" {
+            team.helmet = UIImage(named: "Bengals.gif")
+        } else if teamLabel.text == "CLE" {
+            team.helmet = UIImage(named: "Browns.gif")
+        } else if teamLabel.text == "DAL" {
+            team.helmet = UIImage(named: "Cowboys.gif")
+        } else if teamLabel.text == "DEN" {
+            team.helmet = UIImage(named: "Broncos.gif")
+        } else if teamLabel.text == "DET" {
+            team.helmet = UIImage(named: "Lions.gif")
+        } else if teamLabel.text == "GB" {
+            team.helmet = UIImage(named: "Packers.gif")
+        } else if teamLabel.text == "HOU" {
+            team.helmet = UIImage(named: "Texans.gif")
+        } else if teamLabel.text == "IND" {
+            team.helmet = UIImage(named: "Colts.gif")
+        } else if teamLabel.text == "JAC" {
+            team.helmet = UIImage(named: "Jaguars.gif")
+        } else if teamLabel.text == "KC" {
+            team.helmet = UIImage(named: "Chiefs.gif")
+        } else if teamLabel.text == "MIA" {
+            team.helmet = UIImage(named: "Dolphins.gif")
+        } else if teamLabel.text == "MIN" {
+            team.helmet = UIImage(named: "Vikings.gif")
+        } else if teamLabel.text == "NYG" {
+            team.helmet = UIImage(named: "Giants.gif")
+        } else if teamLabel.text == "NYJ" {
+            team.helmet = UIImage(named: "Jets.gif")
+        } else if teamLabel.text == "NE" {
+            team.helmet = UIImage(named: "Patriots.gif")
+        } else if teamLabel.text == "NO" {
+            team.helmet = UIImage(named: "Saints.gif")
+        } else if teamLabel.text == "OAK" {
+            team.helmet = UIImage(named: "Raiders.gif")
+        } else if teamLabel.text == "PHI" {
+            team.helmet = UIImage(named: "Eagles.gif")
+        } else if teamLabel.text == "SD" {
+            team.helmet = UIImage(named: "Chargers.gif")
+        } else if teamLabel.text == "SF" {
+            team.helmet = UIImage(named: "49ers.gif")
+        } else if teamLabel.text == "SEA" {
+            team.helmet = UIImage(named: "Seahawks.gif")
+        } else if teamLabel.text == "LA" {
+            team.helmet = UIImage(named: "Rams.gif")
+        } else if teamLabel.text == "TB" {
+            team.helmet = UIImage(named: "Buccaneers.gif")
+        } else if teamLabel.text == "TEN" {
+            team.helmet = UIImage(named: "Titans.gif")
+        } else if teamLabel.text == "WAS" {
+            team.helmet = UIImage(named: "Redskins.gif")
         
         if self.positionLabel.text == "QB" {
             team.categorySet = 0
@@ -284,6 +345,7 @@ class MyTeamViewController: UIViewController  {
         
         MyTeamStore.shared.sort()
         MyTeamStore.shared.save()
+    }
     }
     
     // MARK: - IBActions

@@ -13,6 +13,38 @@
 		2E72BEA01DDF870F0007CCBB /* MyTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72BE9F1DDF870F0007CCBB /* MyTeamViewController.swift */; };
 		2E72BEA21DDF891B0007CCBB /* MyTeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72BEA11DDF891B0007CCBB /* MyTeamTableViewController.swift */; };
 		2E72BEA51DDF90290007CCBB /* Steelers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEA41DDF90290007CCBB /* Steelers.gif */; };
+		2E72BEC61DDF9FB50007CCBB /* 49ers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEA61DDF9FB50007CCBB /* 49ers.gif */; };
+		2E72BEC71DDF9FB50007CCBB /* Bears.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEA71DDF9FB50007CCBB /* Bears.gif */; };
+		2E72BEC81DDF9FB50007CCBB /* Bengals.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEA81DDF9FB50007CCBB /* Bengals.gif */; };
+		2E72BEC91DDF9FB50007CCBB /* Bills.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEA91DDF9FB50007CCBB /* Bills.gif */; };
+		2E72BECA1DDF9FB50007CCBB /* Broncos.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEAA1DDF9FB50007CCBB /* Broncos.gif */; };
+		2E72BECB1DDF9FB50007CCBB /* Browns.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEAB1DDF9FB50007CCBB /* Browns.gif */; };
+		2E72BECC1DDF9FB50007CCBB /* Buccaneers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEAC1DDF9FB50007CCBB /* Buccaneers.gif */; };
+		2E72BECD1DDF9FB50007CCBB /* Cardinals.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEAD1DDF9FB50007CCBB /* Cardinals.gif */; };
+		2E72BECE1DDF9FB50007CCBB /* Chargers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEAE1DDF9FB50007CCBB /* Chargers.gif */; };
+		2E72BECF1DDF9FB50007CCBB /* Chiefs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEAF1DDF9FB50007CCBB /* Chiefs.gif */; };
+		2E72BED01DDF9FB50007CCBB /* Colts.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB01DDF9FB50007CCBB /* Colts.gif */; };
+		2E72BED11DDF9FB50007CCBB /* Dallas_Cowboys.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB11DDF9FB50007CCBB /* Dallas_Cowboys.gif */; };
+		2E72BED21DDF9FB50007CCBB /* Dolphins.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB21DDF9FB50007CCBB /* Dolphins.gif */; };
+		2E72BED31DDF9FB50007CCBB /* Eagles.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB31DDF9FB50007CCBB /* Eagles.gif */; };
+		2E72BED41DDF9FB50007CCBB /* Falcons.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB41DDF9FB50007CCBB /* Falcons.gif */; };
+		2E72BED51DDF9FB50007CCBB /* Giants.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB51DDF9FB50007CCBB /* Giants.gif */; };
+		2E72BED61DDF9FB50007CCBB /* Jaguars.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB61DDF9FB50007CCBB /* Jaguars.gif */; };
+		2E72BED71DDF9FB50007CCBB /* Jets.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB71DDF9FB50007CCBB /* Jets.gif */; };
+		2E72BED81DDF9FB50007CCBB /* Lions.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB81DDF9FB50007CCBB /* Lions.gif */; };
+		2E72BED91DDF9FB50007CCBB /* Packers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEB91DDF9FB50007CCBB /* Packers.gif */; };
+		2E72BEDA1DDF9FB50007CCBB /* Panthers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEBA1DDF9FB50007CCBB /* Panthers.gif */; };
+		2E72BEDB1DDF9FB50007CCBB /* Patriots.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEBB1DDF9FB50007CCBB /* Patriots.gif */; };
+		2E72BEDC1DDF9FB50007CCBB /* Raiders.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEBC1DDF9FB50007CCBB /* Raiders.gif */; };
+		2E72BEDD1DDF9FB50007CCBB /* Rams.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEBD1DDF9FB50007CCBB /* Rams.gif */; };
+		2E72BEDE1DDF9FB50007CCBB /* Ravens.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEBE1DDF9FB50007CCBB /* Ravens.gif */; };
+		2E72BEDF1DDF9FB50007CCBB /* Redskins.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEBF1DDF9FB50007CCBB /* Redskins.gif */; };
+		2E72BEE01DDF9FB50007CCBB /* Saints.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEC01DDF9FB50007CCBB /* Saints.gif */; };
+		2E72BEE11DDF9FB50007CCBB /* Seahawks.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEC11DDF9FB50007CCBB /* Seahawks.gif */; };
+		2E72BEE21DDF9FB50007CCBB /* Steelers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEC21DDF9FB50007CCBB /* Steelers.gif */; };
+		2E72BEE31DDF9FB50007CCBB /* Texans.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEC31DDF9FB50007CCBB /* Texans.gif */; };
+		2E72BEE41DDF9FB50007CCBB /* Titans.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEC41DDF9FB50007CCBB /* Titans.gif */; };
+		2E72BEE51DDF9FB50007CCBB /* Vikings.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E72BEC51DDF9FB50007CCBB /* Vikings.gif */; };
 		7DA2EA449278E468F5BDD29A /* Pods_teamFantasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AC6FB30EA2C4B079028830 /* Pods_teamFantasy.framework */; };
 		CF02CC911DDB3CBE00578928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02CC901DDB3CBE00578928 /* AppDelegate.swift */; };
 		CF02CC981DDB3CBE00578928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF02CC971DDB3CBE00578928 /* Assets.xcassets */; };
@@ -39,6 +71,38 @@
 		2E72BE9F1DDF870F0007CCBB /* MyTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTeamViewController.swift; path = ViewControllers/MyTeamViewController.swift; sourceTree = "<group>"; };
 		2E72BEA11DDF891B0007CCBB /* MyTeamTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTeamTableViewController.swift; path = ViewControllers/MyTeamTableViewController.swift; sourceTree = "<group>"; };
 		2E72BEA41DDF90290007CCBB /* Steelers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Steelers.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Steelers.gif; sourceTree = "<group>"; };
+		2E72BEA61DDF9FB50007CCBB /* 49ers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 49ers.gif; path = ../../../teamFantasyMain/teamFantasy/Images/49ers.gif; sourceTree = "<group>"; };
+		2E72BEA71DDF9FB50007CCBB /* Bears.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Bears.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Bears.gif; sourceTree = "<group>"; };
+		2E72BEA81DDF9FB50007CCBB /* Bengals.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Bengals.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Bengals.gif; sourceTree = "<group>"; };
+		2E72BEA91DDF9FB50007CCBB /* Bills.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Bills.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Bills.gif; sourceTree = "<group>"; };
+		2E72BEAA1DDF9FB50007CCBB /* Broncos.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Broncos.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Broncos.gif; sourceTree = "<group>"; };
+		2E72BEAB1DDF9FB50007CCBB /* Browns.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Browns.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Browns.gif; sourceTree = "<group>"; };
+		2E72BEAC1DDF9FB50007CCBB /* Buccaneers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Buccaneers.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Buccaneers.gif; sourceTree = "<group>"; };
+		2E72BEAD1DDF9FB50007CCBB /* Cardinals.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Cardinals.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Cardinals.gif; sourceTree = "<group>"; };
+		2E72BEAE1DDF9FB50007CCBB /* Chargers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Chargers.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Chargers.gif; sourceTree = "<group>"; };
+		2E72BEAF1DDF9FB50007CCBB /* Chiefs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Chiefs.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Chiefs.gif; sourceTree = "<group>"; };
+		2E72BEB01DDF9FB50007CCBB /* Colts.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Colts.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Colts.gif; sourceTree = "<group>"; };
+		2E72BEB11DDF9FB50007CCBB /* Dallas_Cowboys.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Dallas_Cowboys.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Dallas_Cowboys.gif; sourceTree = "<group>"; };
+		2E72BEB21DDF9FB50007CCBB /* Dolphins.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Dolphins.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Dolphins.gif; sourceTree = "<group>"; };
+		2E72BEB31DDF9FB50007CCBB /* Eagles.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Eagles.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Eagles.gif; sourceTree = "<group>"; };
+		2E72BEB41DDF9FB50007CCBB /* Falcons.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Falcons.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Falcons.gif; sourceTree = "<group>"; };
+		2E72BEB51DDF9FB50007CCBB /* Giants.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Giants.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Giants.gif; sourceTree = "<group>"; };
+		2E72BEB61DDF9FB50007CCBB /* Jaguars.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Jaguars.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Jaguars.gif; sourceTree = "<group>"; };
+		2E72BEB71DDF9FB50007CCBB /* Jets.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Jets.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Jets.gif; sourceTree = "<group>"; };
+		2E72BEB81DDF9FB50007CCBB /* Lions.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Lions.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Lions.gif; sourceTree = "<group>"; };
+		2E72BEB91DDF9FB50007CCBB /* Packers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Packers.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Packers.gif; sourceTree = "<group>"; };
+		2E72BEBA1DDF9FB50007CCBB /* Panthers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Panthers.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Panthers.gif; sourceTree = "<group>"; };
+		2E72BEBB1DDF9FB50007CCBB /* Patriots.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Patriots.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Patriots.gif; sourceTree = "<group>"; };
+		2E72BEBC1DDF9FB50007CCBB /* Raiders.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Raiders.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Raiders.gif; sourceTree = "<group>"; };
+		2E72BEBD1DDF9FB50007CCBB /* Rams.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Rams.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Rams.gif; sourceTree = "<group>"; };
+		2E72BEBE1DDF9FB50007CCBB /* Ravens.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Ravens.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Ravens.gif; sourceTree = "<group>"; };
+		2E72BEBF1DDF9FB50007CCBB /* Redskins.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Redskins.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Redskins.gif; sourceTree = "<group>"; };
+		2E72BEC01DDF9FB50007CCBB /* Saints.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Saints.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Saints.gif; sourceTree = "<group>"; };
+		2E72BEC11DDF9FB50007CCBB /* Seahawks.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Seahawks.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Seahawks.gif; sourceTree = "<group>"; };
+		2E72BEC21DDF9FB50007CCBB /* Steelers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Steelers.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Steelers.gif; sourceTree = "<group>"; };
+		2E72BEC31DDF9FB50007CCBB /* Texans.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Texans.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Texans.gif; sourceTree = "<group>"; };
+		2E72BEC41DDF9FB50007CCBB /* Titans.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Titans.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Titans.gif; sourceTree = "<group>"; };
+		2E72BEC51DDF9FB50007CCBB /* Vikings.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Vikings.gif; path = ../../../teamFantasyMain/teamFantasy/Images/Vikings.gif; sourceTree = "<group>"; };
 		38AC6FB30EA2C4B079028830 /* Pods_teamFantasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teamFantasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C79C4F49B6B9B3CE52ADA21 /* Pods-teamFantasy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamFantasy.release.xcconfig"; path = "Pods/Target Support Files/Pods-teamFantasy/Pods-teamFantasy.release.xcconfig"; sourceTree = "<group>"; };
 		5688F3D2DD28F8679CE824A3 /* Pods-teamFantasy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamFantasy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-teamFantasy/Pods-teamFantasy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +151,38 @@
 		2E72BEA31DDF8FB30007CCBB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2E72BEA61DDF9FB50007CCBB /* 49ers.gif */,
+				2E72BEA71DDF9FB50007CCBB /* Bears.gif */,
+				2E72BEA81DDF9FB50007CCBB /* Bengals.gif */,
+				2E72BEA91DDF9FB50007CCBB /* Bills.gif */,
+				2E72BEAA1DDF9FB50007CCBB /* Broncos.gif */,
+				2E72BEAB1DDF9FB50007CCBB /* Browns.gif */,
+				2E72BEAC1DDF9FB50007CCBB /* Buccaneers.gif */,
+				2E72BEAD1DDF9FB50007CCBB /* Cardinals.gif */,
+				2E72BEAE1DDF9FB50007CCBB /* Chargers.gif */,
+				2E72BEAF1DDF9FB50007CCBB /* Chiefs.gif */,
+				2E72BEB01DDF9FB50007CCBB /* Colts.gif */,
+				2E72BEB11DDF9FB50007CCBB /* Dallas_Cowboys.gif */,
+				2E72BEB21DDF9FB50007CCBB /* Dolphins.gif */,
+				2E72BEB31DDF9FB50007CCBB /* Eagles.gif */,
+				2E72BEB41DDF9FB50007CCBB /* Falcons.gif */,
+				2E72BEB51DDF9FB50007CCBB /* Giants.gif */,
+				2E72BEB61DDF9FB50007CCBB /* Jaguars.gif */,
+				2E72BEB71DDF9FB50007CCBB /* Jets.gif */,
+				2E72BEB81DDF9FB50007CCBB /* Lions.gif */,
+				2E72BEB91DDF9FB50007CCBB /* Packers.gif */,
+				2E72BEBA1DDF9FB50007CCBB /* Panthers.gif */,
+				2E72BEBB1DDF9FB50007CCBB /* Patriots.gif */,
+				2E72BEBC1DDF9FB50007CCBB /* Raiders.gif */,
+				2E72BEBD1DDF9FB50007CCBB /* Rams.gif */,
+				2E72BEBE1DDF9FB50007CCBB /* Ravens.gif */,
+				2E72BEBF1DDF9FB50007CCBB /* Redskins.gif */,
+				2E72BEC01DDF9FB50007CCBB /* Saints.gif */,
+				2E72BEC11DDF9FB50007CCBB /* Seahawks.gif */,
+				2E72BEC21DDF9FB50007CCBB /* Steelers.gif */,
+				2E72BEC31DDF9FB50007CCBB /* Texans.gif */,
+				2E72BEC41DDF9FB50007CCBB /* Titans.gif */,
+				2E72BEC51DDF9FB50007CCBB /* Vikings.gif */,
 				2E72BEA41DDF90290007CCBB /* Steelers.gif */,
 			);
 			name = Images;
@@ -253,9 +349,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF625ED91DDB3EAB002BC198 /* Main.storyboard in Resources */,
+				2E72BED81DDF9FB50007CCBB /* Lions.gif in Resources */,
+				2E72BED31DDF9FB50007CCBB /* Eagles.gif in Resources */,
+				2E72BED01DDF9FB50007CCBB /* Colts.gif in Resources */,
+				2E72BEC61DDF9FB50007CCBB /* 49ers.gif in Resources */,
+				2E72BECD1DDF9FB50007CCBB /* Cardinals.gif in Resources */,
+				2E72BEE51DDF9FB50007CCBB /* Vikings.gif in Resources */,
 				CF02CC9B1DDB3CBE00578928 /* LaunchScreen.storyboard in Resources */,
+				2E72BEE11DDF9FB50007CCBB /* Seahawks.gif in Resources */,
+				2E72BEE21DDF9FB50007CCBB /* Steelers.gif in Resources */,
+				2E72BED41DDF9FB50007CCBB /* Falcons.gif in Resources */,
+				2E72BEC91DDF9FB50007CCBB /* Bills.gif in Resources */,
+				2E72BED71DDF9FB50007CCBB /* Jets.gif in Resources */,
 				CF02CC981DDB3CBE00578928 /* Assets.xcassets in Resources */,
+				2E72BEE01DDF9FB50007CCBB /* Saints.gif in Resources */,
+				2E72BEDA1DDF9FB50007CCBB /* Panthers.gif in Resources */,
+				2E72BEDB1DDF9FB50007CCBB /* Patriots.gif in Resources */,
+				2E72BEE41DDF9FB50007CCBB /* Titans.gif in Resources */,
+				2E72BECF1DDF9FB50007CCBB /* Chiefs.gif in Resources */,
+				2E72BEC81DDF9FB50007CCBB /* Bengals.gif in Resources */,
+				2E72BECC1DDF9FB50007CCBB /* Buccaneers.gif in Resources */,
+				2E72BEC71DDF9FB50007CCBB /* Bears.gif in Resources */,
+				2E72BEDE1DDF9FB50007CCBB /* Ravens.gif in Resources */,
+				2E72BEE31DDF9FB50007CCBB /* Texans.gif in Resources */,
 				2E72BEA51DDF90290007CCBB /* Steelers.gif in Resources */,
+				2E72BED91DDF9FB50007CCBB /* Packers.gif in Resources */,
+				2E72BED11DDF9FB50007CCBB /* Dallas_Cowboys.gif in Resources */,
+				2E72BECE1DDF9FB50007CCBB /* Chargers.gif in Resources */,
+				2E72BED61DDF9FB50007CCBB /* Jaguars.gif in Resources */,
+				2E72BED51DDF9FB50007CCBB /* Giants.gif in Resources */,
+				2E72BEDC1DDF9FB50007CCBB /* Raiders.gif in Resources */,
+				2E72BEDF1DDF9FB50007CCBB /* Redskins.gif in Resources */,
+				2E72BECA1DDF9FB50007CCBB /* Broncos.gif in Resources */,
+				2E72BECB1DDF9FB50007CCBB /* Browns.gif in Resources */,
+				2E72BED21DDF9FB50007CCBB /* Dolphins.gif in Resources */,
+				2E72BEDD1DDF9FB50007CCBB /* Rams.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
