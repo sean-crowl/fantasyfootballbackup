@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E72BE9A1DDF84E60007CCBB /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72BE991DDF84E60007CCBB /* Team.swift */; };
+		2E72BE9C1DDF85590007CCBB /* MyTeamStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72BE9B1DDF85590007CCBB /* MyTeamStore.swift */; };
 		7DA2EA449278E468F5BDD29A /* Pods_teamFantasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AC6FB30EA2C4B079028830 /* Pods_teamFantasy.framework */; };
 		CF02CC911DDB3CBE00578928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02CC901DDB3CBE00578928 /* AppDelegate.swift */; };
 		CF02CC981DDB3CBE00578928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF02CC971DDB3CBE00578928 /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E72BE991DDF84E60007CCBB /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Team.swift; path = ViewControllers/Team.swift; sourceTree = "<group>"; };
+		2E72BE9B1DDF85590007CCBB /* MyTeamStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTeamStore.swift; path = ViewControllers/MyTeamStore.swift; sourceTree = "<group>"; };
 		38AC6FB30EA2C4B079028830 /* Pods_teamFantasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teamFantasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C79C4F49B6B9B3CE52ADA21 /* Pods-teamFantasy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamFantasy.release.xcconfig"; path = "Pods/Target Support Files/Pods-teamFantasy/Pods-teamFantasy.release.xcconfig"; sourceTree = "<group>"; };
 		5688F3D2DD28F8679CE824A3 /* Pods-teamFantasy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamFantasy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-teamFantasy/Pods-teamFantasy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 			children = (
 				CF7A8BFC1DDC968E004503BE /* Constants.swift */,
 				CF7A8C061DDCA374004503BE /* Utils.swift */,
+				2E72BE991DDF84E60007CCBB /* Team.swift */,
+				2E72BE9B1DDF85590007CCBB /* MyTeamStore.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -289,6 +295,8 @@
 			files = (
 				CF7A8BFD1DDC968E004503BE /* Constants.swift in Sources */,
 				CF02CC911DDB3CBE00578928 /* AppDelegate.swift in Sources */,
+				2E72BE9A1DDF84E60007CCBB /* Team.swift in Sources */,
+				2E72BE9C1DDF85590007CCBB /* MyTeamStore.swift in Sources */,
 				CF6C0E541DDDF4EE00F0FBF7 /* RunningBack.swift in Sources */,
 				CF6C0E501DDDF43900F0FBF7 /* QuarterBack.swift in Sources */,
 				CF6C0E521DDDF49100F0FBF7 /* WideReceiver.swift in Sources */,
