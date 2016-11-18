@@ -129,7 +129,7 @@ class MyTeamTableViewController: UITableViewController {
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "EditToDoSegue" {
+        if segue.identifier == "EditTeamSegue" {
             let teamDetailVC = segue.destination as! MyTeamViewController
             let tableCell = sender as! MyTeamTableViewCell
             teamDetailVC.team = tableCell.team
