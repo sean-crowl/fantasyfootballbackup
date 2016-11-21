@@ -25,15 +25,11 @@ class MyTeamStore {
             teams = NSKeyedUnarchiver.unarchiveObject(withFile: filePath) as! [[Team]]
         } else {
             teams = [[], [], [], [], [], []]
-            teams[0].append(Team(title: "Matthew McClellan", team: "INT", helmet: ))
-            teams[0].append(Team(title: "Doug Jones", team: "INT", helmet: ))
-            teams[1].append(Team(title: "Izaak Prats", team: "INT", helmet: ))
-            teams[1].append(Team(title: "Alex Hughes", team: "INT", helmet: ))
-            teams[2].append(Team(title: "Scott Bowen", team: "INT", helmet: ))
-            teams[2].append(Team(title: "Eagle Brosi", team: "INT", helmet: ))
-            teams[3].append(Team(title: "Ben Larrabee", team: "INT", helmet: ))
-            teams[4].append(Team(title: "Kimberly Albright", team: "INT", helmet: ))
-            teams[5].append(Team(title: "Lane Terry", team: "INT", helmet: ))
+            teams[0].append(Team(title: "Matthew McClellan", team: "INT", helmet: #imageLiteral(resourceName: "Default.jpg")))
+            teams[1].append(Team(title: "Izaak Prats", team: "INT", helmet: #imageLiteral(resourceName: "Default.jpg")))
+            teams[2].append(Team(title: "Scott Bowen", team: "INT", helmet: #imageLiteral(resourceName: "Default.jpg")))
+            teams[3].append(Team(title: "Kimberly Albright", team: "INT", helmet: #imageLiteral(resourceName: "Default.jpg")))
+            teams[4].append(Team(title: "Lane Terry", team: "INT", helmet: #imageLiteral(resourceName: "Default.jpg")))
             save()
         }
         sort()

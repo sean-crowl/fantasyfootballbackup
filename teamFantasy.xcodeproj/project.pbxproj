@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E57CF8E1DE3714F0017ABE9 /* Default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E57CF8D1DE3714F0017ABE9 /* Default.jpg */; };
+		2E57CF901DE376720017ABE9 /* CompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E57CF8F1DE376720017ABE9 /* CompareViewController.swift */; };
 		2E72BE9A1DDF84E60007CCBB /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72BE991DDF84E60007CCBB /* Team.swift */; };
 		2E72BE9C1DDF85590007CCBB /* MyTeamStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72BE9B1DDF85590007CCBB /* MyTeamStore.swift */; };
 		2E72BE9E1DDF866E0007CCBB /* MyTeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72BE9D1DDF866E0007CCBB /* MyTeamTableViewCell.swift */; };
@@ -65,6 +67,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E57CF8D1DE3714F0017ABE9 /* Default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Default.jpg; path = ../../../teamFantasyMain/teamFantasy/Images/Default.jpg; sourceTree = "<group>"; };
+		2E57CF8F1DE376720017ABE9 /* CompareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompareViewController.swift; path = ViewControllers/CompareViewController.swift; sourceTree = "<group>"; };
 		2E72BE991DDF84E60007CCBB /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Team.swift; path = ViewControllers/Team.swift; sourceTree = "<group>"; };
 		2E72BE9B1DDF85590007CCBB /* MyTeamStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTeamStore.swift; path = ViewControllers/MyTeamStore.swift; sourceTree = "<group>"; };
 		2E72BE9D1DDF866E0007CCBB /* MyTeamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTeamTableViewCell.swift; path = ViewControllers/MyTeamTableViewCell.swift; sourceTree = "<group>"; };
@@ -151,6 +155,7 @@
 		2E72BEA31DDF8FB30007CCBB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2E57CF8D1DE3714F0017ABE9 /* Default.jpg */,
 				2E72BEA61DDF9FB50007CCBB /* 49ers.gif */,
 				2E72BEA71DDF9FB50007CCBB /* Bears.gif */,
 				2E72BEA81DDF9FB50007CCBB /* Bengals.gif */,
@@ -242,6 +247,7 @@
 				2E72BE9D1DDF866E0007CCBB /* MyTeamTableViewCell.swift */,
 				2E72BE9F1DDF870F0007CCBB /* MyTeamViewController.swift */,
 				2E72BEA11DDF891B0007CCBB /* MyTeamTableViewController.swift */,
+				2E57CF8F1DE376720017ABE9 /* CompareViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -367,6 +373,7 @@
 				2E72BEDB1DDF9FB50007CCBB /* Patriots.gif in Resources */,
 				2E72BEE41DDF9FB50007CCBB /* Titans.gif in Resources */,
 				2E72BECF1DDF9FB50007CCBB /* Chiefs.gif in Resources */,
+				2E57CF8E1DE3714F0017ABE9 /* Default.jpg in Resources */,
 				2E72BEC81DDF9FB50007CCBB /* Bengals.gif in Resources */,
 				2E72BECC1DDF9FB50007CCBB /* Buccaneers.gif in Resources */,
 				2E72BEC71DDF9FB50007CCBB /* Bears.gif in Resources */,
@@ -452,6 +459,7 @@
 				CF6C0E501DDDF43900F0FBF7 /* QuarterBack.swift in Sources */,
 				CF6C0E521DDDF49100F0FBF7 /* WideReceiver.swift in Sources */,
 				CF625EDD1DDB3FF2002BC198 /* HelpViewController.swift in Sources */,
+				2E57CF901DE376720017ABE9 /* CompareViewController.swift in Sources */,
 				2E72BEA21DDF891B0007CCBB /* MyTeamTableViewController.swift in Sources */,
 				CF625EDB1DDB3F6A002BC198 /* HomeViewController.swift in Sources */,
 				CF7A8C071DDCA374004503BE /* Utils.swift in Sources */,
