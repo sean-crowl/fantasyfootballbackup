@@ -6,25 +6,20 @@
 //  Copyright © 2016 David  Bowen. All rights reserved.
 //
 
-//
-//  ToDoTableViewController.swift
-//  ToDoListSKC
-//
-//  Created by Sean Crowl on 10/24/16.
-//  Copyright © 2016 Interapt. All rights reserved.
-//
 
 import UIKit
 
 class MyTeamTableViewController: UITableViewController {
+    @IBOutlet weak var showIncomplete: UISwitch!
     
     
     var team = Team()
     var teamcell = MyTeamTableViewCell()
-    var teamstore = MyTeamStore()
+    var myteamstore = MyTeamStore()
     var teamdetail = MyTeamViewController()
     var teams: [[Team]]!
     
+    var completeTrue = 0
     var searching = false
     let searchController = UISearchController(searchResultsController: nil)
     var searchResults: [[Team]] = []
@@ -74,7 +69,16 @@ class MyTeamTableViewController: UITableViewController {
         } else {
             cell.setupCell(team: MyTeamStore.shared.getTeam(indexPath.row, categorySet: indexPath.section))
         }
-
+        
+        if completeTrue == 1 {
+            if cell.isComplete == true {
+                cell.isHidden = true
+                self.tableView.rowHeight = 0
+            } else {
+                cell.isHidden = false
+                self.tableView.rowHeight = 80
+            }
+        }
         
         return cell
         
@@ -130,25 +134,25 @@ class MyTeamTableViewController: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "EditTeamSegue" {
-            let teamDetailVC = segue.destination as! MyTeamViewController
+            let MyTeamDetailVC = segue.destination as! MyTeamViewController
             let tableCell = sender as! MyTeamTableViewCell
-            teamDetailVC.team = tableCell.team
+            MyTeamDetailVC.team = tableCell.team
             MyTeamStore.shared.save()
         }
     }
     
     // MARK: - Unwind Segue
     @IBAction func saveToDoDetail(_ segue: UIStoryboardSegue) {
-        let teamDetailVC = segue.source as! MyTeamViewController
+        let MyTeamDetailVC = segue.source as! MyTeamViewController
         if let indexPath = tableView.indexPathForSelectedRow {
             
             MyTeamStore.shared.deleteTeam(indexPath.row, categorySet: indexPath.section)
-            MyTeamStore.shared.addTeam(teamDetailVC.team, categorySet: teamDetailVC.team.categorySet)
+            MyTeamStore.shared.addTeam(MyTeamDetailVC.team, categorySet: MyTeamDetailVC.team.categorySet)
             tableView.reloadData()
             MyTeamStore.shared.save()
         } else {
-            let indexPath = IndexPath(row: 0, section: teamDetailVC.team.categorySet)
-            MyTeamStore.shared.addTeam(teamDetailVC.team, categorySet: indexPath.section)
+            let indexPath = IndexPath(row: 0, section: MyTeamDetailVC.team.categorySet)
+            MyTeamStore.shared.addTeam(MyTeamDetailVC.team, categorySet: indexPath.section)
             tableView.insertRows(at: [indexPath], with: .automatic)
             tableView.reloadData()
             MyTeamStore.shared.save()
@@ -159,13 +163,22 @@ class MyTeamTableViewController: UITableViewController {
     
     
     // MARK: - IBActions
+    @IBAction func toggleIncomplete(_ sender: AnyObject) {
+        if showIncomplete.isOn {
+            completeTrue = 1
+            self.tableView.reloadData()
+        } else {
+            completeTrue = 2
+            self.tableView.reloadData()
+        }
+    }
     
     
     // MARK: - Search Functions
     func searchTeams(searchText: String) -> [[Team]] {
         var searchResults: [[Team]] = []
         for index in 0..<teamdetail.categoryArray.count {
-            searchResults.append(teamstore.teams[index].filter({ (team) -> Bool in
+            searchResults.append(myteamstore.teams[index].filter({ (team) -> Bool in
                 return team.title.lowercased().contains(searchText.lowercased())
             }))
         }

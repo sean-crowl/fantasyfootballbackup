@@ -42,7 +42,7 @@ class Team: NSObject, NSCoding {
         
     }
     
-    init(title: String) {
+    init(title: String, team: String, helmet: UIImage) {
         self.title = title
     }
     

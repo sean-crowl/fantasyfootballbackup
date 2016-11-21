@@ -6,14 +6,6 @@
 //  Copyright © 2016 David  Bowen. All rights reserved.
 //
 
-//
-//  ToDoDetailViewController.swift
-//  ToDoListSKC
-//
-//  Created by Sean Crowl on 10/24/16.
-//  Copyright © 2016 Interapt. All rights reserved.
-//
-
 import UIKit
 import Alamofire
 import SwiftyJSON
@@ -32,9 +24,8 @@ class MyTeamViewController: UIViewController  {
     @IBOutlet weak var PAsLabel: UILabel!
     @IBOutlet weak var FGsLabel: UILabel!
     @IBOutlet weak var teamLabel: UILabel!
-    @IBOutlet weak var helmetImage: UIImageView!
     
-    var categoryArray = ["QB", "WR", "RB", "TE", "K"]
+    var categoryArray = ["QB", "WR", "RB", "TE", "Flex", "K"]
     var categoryPick = 0
     var selectedPick: String {
         return UserDefaults.standard.string(forKey: "categoryPick") ?? ""
@@ -217,21 +208,7 @@ class MyTeamViewController: UIViewController  {
                 
             }
         }
-
         
-        enterNameField.text! = team.title
-        nameLabel.text! = team.title
-        positionLabel.text! = team.position
-        completionsLabel.text! = team.completions
-        passYardsLabel.text! = team.passYards
-        passTDsLabel.text! = team.passTDs
-        rushYardsLabel.text! = team.rushYards
-        rushTDsLabel.text! = team.rushTDs
-        receivingYardsLabel.text! = team.receivingYards
-        receivingTDsLabel.text! = team.receivingTDs
-        PAsLabel.text! = team.PAs
-        FGsLabel.text! = team.FGs
-        teamLabel.text! = team.team
         
         
     }
@@ -316,6 +293,7 @@ class MyTeamViewController: UIViewController  {
             team.helmet = UIImage(named: "Titans.gif")
         } else if teamLabel.text == "WAS" {
             team.helmet = UIImage(named: "Redskins.gif")
+        }
         
         if self.positionLabel.text == "QB" {
             team.categorySet = 0
@@ -329,23 +307,9 @@ class MyTeamViewController: UIViewController  {
             team.categorySet = 4
         }
         
-        team.position = positionLabel.text!
-        team.completions = completionsLabel.text!
-        team.passYards = passYardsLabel.text!
-        team.passTDs = passTDsLabel.text!
-        team.rushYards = rushYardsLabel.text!
-        team.rushTDs = rushTDsLabel.text!
-        team.receivingYards = receivingYardsLabel.text!
-        team.receivingTDs = receivingTDsLabel.text!
-        team.PAs = PAsLabel.text!
-        team.FGs = FGsLabel.text!
-        team.team = teamLabel.text!
-        team.title = nameLabel.text!
-        
         
         MyTeamStore.shared.sort()
         MyTeamStore.shared.save()
-    }
     }
     
     // MARK: - IBActions
@@ -358,6 +322,16 @@ class MyTeamViewController: UIViewController  {
                 
                 for quarterback in quarterbacks {
                     if self.enterNameField.text == quarterback[Constants.API.DisplayNameKey].string {
+                        print("\(quarterbacks.index(of: quarterback)! + 1). \(quarterback[Constants.API.DisplayNameKey].string!)")
+                        print("\(quarterbacks.index(of: quarterback)! + 1). \(quarterback[Constants.API.Position].string!)")
+                        print("\(quarterbacks.index(of: quarterback)! + 1). \(quarterback[Constants.API.PassCmp].string!) / \(quarterback[Constants.API.PassAtt].string!)")
+                        print("\(quarterbacks.index(of: quarterback)! + 1). \(quarterback[Constants.API.PassYds].string!)")
+                        print("\(quarterbacks.index(of: quarterback)! + 1). \(quarterback[Constants.API.PassTD].string!)")
+                        print("\(quarterbacks.index(of: quarterback)! + 1). \(quarterback[Constants.API.Position].string!)")
+                        print("\(quarterbacks.index(of: quarterback)! + 1). \(quarterback[Constants.API.rushYds].string!)")
+                        print("\(quarterbacks.index(of: quarterback)! + 1). \(quarterback[Constants.API.rushTD].string!)")
+                        print("\(quarterbacks.index(of: quarterback)! + 1). \(quarterback[Constants.API.fg].string!)")
+                        print("\(quarterbacks.index(of: quarterback)! + 1). \(quarterback[Constants.API.xp].string!)")
                         
                         
                         self.nameLabel.text = quarterback[Constants.API.DisplayNameKey].string!
@@ -523,10 +497,6 @@ class MyTeamViewController: UIViewController  {
             team.categorySet = 1
         } else if self.positionLabel.text == "RB" {
             team.categorySet = 2
-        } else if self.positionLabel.text == "TE" {
-            team.categorySet = 3
-        } else if self.positionLabel.text == "K" {
-            team.categorySet = 4
         }
     }
     
@@ -537,8 +507,4 @@ class MyTeamViewController: UIViewController  {
     }
     
 }
-
-
-
-
 
